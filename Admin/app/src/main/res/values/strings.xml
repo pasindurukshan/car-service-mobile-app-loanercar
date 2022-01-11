@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Admin_WeCarCare</string>
+    <string name="tv_p1">WeCarCare</string>
+    <string name="tv_p2">We CarCare</string>
+    <string name="btn1">Appoinment Reports</string>
+    <string name="btn2">DoorStep Reports</string>
+    <string name="btn3">Loaner Car Reports</string>
+    <string name="btn4">Payment Reports</string>
+</resources>
