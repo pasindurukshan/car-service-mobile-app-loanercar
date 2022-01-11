@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lccard_design"
+    tools:context=".mydashboard">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="297dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logof" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:text="No Wait!!!!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Pick Up Vehicle Now"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="344dp"
+        android:id="@+id/cardone"
+        android:layout_height="118dp"
+    android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.647">
+
+
+        <Button
+            android:id="@+id/loaner"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="LoanerCar History"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/reqcar" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="344dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintTop_toBottomOf="@+id/cardone"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <Button
+            android:id="@+id/taxi"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="TaxiCar"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/airplane"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/about_us" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

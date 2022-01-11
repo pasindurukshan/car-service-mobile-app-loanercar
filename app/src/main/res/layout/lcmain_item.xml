@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="45dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lccard_design"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/e"
+            android:layout_marginTop="50dp"
+            android:id="@+id/img1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+
+        <TextView
+            android:id="@+id/sertypetexttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Service"
+            android:layout_marginTop="50dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sertypetext"
+            android:text="Service Type"
+            android:layout_marginTop="50dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="right"
+            android:layout_marginRight="-1dp"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartypetexttext"
+            android:text="Car Type"
+            android:gravity="left"
+            android:textSize="18sp"
+
+            android:textColor="#000"
+            android:layout_below="@+id/sertypetexttext"
+            android:textAllCaps="false"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartypetext"
+            android:text="Car Type"
+            android:gravity="right"
+            android:layout_below="@+id/sertypetext"
+            android:textSize="18sp"
+            android:textColor="#000"
+
+            android:layout_toRightOf="@+id/img1"
+            android:textAllCaps="false"
+            android:layout_marginRight="-1dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fuelexperttexttext"
+            android:text="Fuel Expected"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:textColor="#000"
+
+            android:layout_below="@+id/cartypetexttext"
+            android:textAllCaps="false"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fuelexperttext"
+            android:text="Fuel Expected"
+
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/img1"
+            android:gravity="right"
+            android:layout_below="@+id/cartypetext"
+            android:textAllCaps="false"
+            android:layout_marginRight="-1dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/picktimetexttext"
+            android:text="Pick-up Time(24hr)"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/fuelexperttexttext"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/picktimetext"
+            android:text="Pick-up Time "
+            android:gravity="right"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_below="@+id/fuelexperttext"
+            android:textAllCaps="false"
+            android:layout_marginRight="-1dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delitimetexttext"
+            android:text="Delivery Time(24hr)"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:textColor="#000"
+
+            android:layout_below="@+id/picktimetexttext"
+            android:textAllCaps="false"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delitimetext"
+            android:text="Delivery Time"
+
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="right"
+            android:layout_below="@+id/picktimetext"
+            android:textAllCaps="false"
+            android:layout_marginRight="-1dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/extrachartexttext"
+            android:text="Extra Charge"
+
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:layout_below="@+id/delitimetexttext"
+            android:textAllCaps="false"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/extrachartext"
+            android:text="Extra Charge"
+
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="right"
+            android:layout_below="@+id/delitimetext"
+            android:textAllCaps="false"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="25dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_below="@id/extrachartext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#04156C"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#04156C"
+                android:id="@+id/btnDelete"/>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

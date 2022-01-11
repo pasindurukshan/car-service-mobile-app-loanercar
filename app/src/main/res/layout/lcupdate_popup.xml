@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lccard_design"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFF"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Service Type"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:enabled="false"
+        android:textStyle="bold"
+        android:textColor="#72302727"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:id="@+id/sertypetext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Car Type"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:id="@+id/cartypetext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Fuel Expected (Liter)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:id="@+id/fuelexperttext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Pick-up Time (24hrs)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:id="@+id/picktimetext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Delivery  (24hrs)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:id="@+id/delitimetext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Extra Charge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/lcrounded"
+        android:gravity="center"
+        android:enabled="false"
+        android:textColor="#E48181"
+        android:textStyle="bold"
+        android:id="@+id/extrachartext"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Update"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+
+        android:gravity="center"
+        android:background="@drawable/lccard_design"
+        android:id="@+id/btnUpdate"/>
+
+
+
+</LinearLayout>
